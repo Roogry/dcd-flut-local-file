@@ -1,20 +1,21 @@
-import 'package:flutter/material.dart';
+import 'package:dcd_flut_local_file/home_page.dart';
+import 'package:flutter/cupertino.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(MyApp());
 }
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
+ 
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return const CupertinoApp(
+      title: 'Flutter Demo',
+      theme: CupertinoThemeData(
+        primaryColor: CupertinoColors.systemBlue,
       ),
+      home: MyHomePage(),
     );
   }
 }

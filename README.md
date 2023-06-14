@@ -1,6 +1,6 @@
 # Dicoding Flutter Local File
 
-This repository contains a Flutter mobile application developed for learning fundamental flutter development based on [Dicoding Class](https://www.dicoding.com/academies/195). The application focuses on creating simple read and write to file that stored on internal storage Android and iOS.
+This repository contains a Flutter mobile application developed for learning fundamental flutter development based on [Dicoding Class](https://www.dicoding.com/academies/195). The application focuses on creating simple read and write to file that stored on internal storage based on iOS design.
 
 ## Getting Started
 
